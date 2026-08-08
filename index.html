@@ -607,7 +607,7 @@
       </div>
       <div class="contact-card mail reveal-left" style="transition-delay:.1s">
         <h3>O envía presupuesto por email</h3>
-        <form class="mail-form" id="emailForm" action="https://formspree.io/f/xeajowon" method="POST">
+        <form class="mail-form" id="emailForm" action="https://formspree.io/f/REPLACE_ID" method="POST">
           <input type="email" name="email" placeholder="tu@email.com" required>
           <button type="submit" class="btn-outline">Enviar</button>
         </form>
@@ -630,7 +630,7 @@
     </div>
     <div class="footer-bottom">
       <span>© 2026 Operux. Todos los derechos reservados.</span>
-      <span>operuxagencycontact@gmail.com</span>
+      <span>contact@operux.com</span>
     </div>
   </div>
 </footer>
@@ -646,7 +646,7 @@
 
   // ---- WhatsApp links ----
   safe(function(){
-    var phone = '584128245940'; // REEMPLAZAR con número real (sin +)
+    var phone = '5812345678'; // REEMPLAZAR con número real (sin +)
     var msg = encodeURIComponent('Hola Operux, quiero una web de conversión para mi negocio. Tengo presupuesto de $80. ¿Cuánto tiempo tarda?');
     var url = 'https://wa.me/' + phone + '?text=' + msg;
     document.querySelectorAll('.wa-link, #waHeader, #waMobile').forEach(function(el){ el.href = url; });
